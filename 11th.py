@@ -1,0 +1,5 @@
+str = input("Enter String")
+lst = '-'.join(str.split(',')).split('-')
+lst.sort()
+str1='-'.join(lst)
+print(str1)

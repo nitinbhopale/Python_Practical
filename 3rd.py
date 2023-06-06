@@ -1,0 +1,7 @@
+per = int(input("Enter Percentage:"))
+if per>=80:print("O")
+elif per>=75:print("A+")
+elif per>=70:print("A")
+elif per>=65:print("B+")
+elif per>=60:print("B")
+elif per>=55:print("Pass")
